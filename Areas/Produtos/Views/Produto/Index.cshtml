@@ -1,0 +1,42 @@
+﻿@model IEnumerable<aulaDotNetCore.Areas.Produtos.Models.Produto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdProduto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeProduto)
+            </th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modeli => item.IdProduto)
+            </td>
+            <td>
+                @Html.DisplayFor(modeli => item.NomeProduto)
+            </td>
+            <td>
+                @Html.ActionLink("Volta Home", "Index", "Produto", new { area = "Produtos" })
+
+                <a asp-area="Produtos" asp-controller="Produto" asp-action="Index">ProdutosTag</a>
+                <a asp-area="" asp-controller="Home" asp-action="About">Home</a>
+            </td>
+
+
+        </tr>
+
+
+
+    }
+
+</table>
+<h2>Teste</h2>
+

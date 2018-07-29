@@ -1,0 +1,15 @@
+@model aulaDotNetCore.ViewModel.ViewModelCLientePedindo    
+@Html.Partial("_PartialShared")
+<h1>Cliente </h1>
+<hr/>
+@Model.cliente.Nome <br/>
+@Model.cliente.ClienteId<br/>
+@Model.cliente.Email
+
+@if(Model.produtoNome.Count==0){
+      <P>Nada</P>
+}else{
+    foreach(var itens in Model.produtoNome){
+        <p>@itens.ProdutoNome</p>
+    }
+}

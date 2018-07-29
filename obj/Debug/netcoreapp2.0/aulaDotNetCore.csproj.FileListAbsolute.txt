@@ -1,0 +1,10 @@
+C:\Users\Diego\aulaDotNetCore\bin\Debug\netcoreapp2.0\aulaDotNetCore.deps.json
+C:\Users\Diego\aulaDotNetCore\bin\Debug\netcoreapp2.0\aulaDotNetCore.runtimeconfig.json
+C:\Users\Diego\aulaDotNetCore\bin\Debug\netcoreapp2.0\aulaDotNetCore.runtimeconfig.dev.json
+C:\Users\Diego\aulaDotNetCore\bin\Debug\netcoreapp2.0\aulaDotNetCore.dll
+C:\Users\Diego\aulaDotNetCore\bin\Debug\netcoreapp2.0\aulaDotNetCore.pdb
+C:\Users\Diego\aulaDotNetCore\obj\Debug\netcoreapp2.0\aulaDotNetCore.csproj.CoreCompileInputs.cache
+C:\Users\Diego\aulaDotNetCore\obj\Debug\netcoreapp2.0\aulaDotNetCore.AssemblyInfoInputs.cache
+C:\Users\Diego\aulaDotNetCore\obj\Debug\netcoreapp2.0\aulaDotNetCore.AssemblyInfo.cs
+C:\Users\Diego\aulaDotNetCore\obj\Debug\netcoreapp2.0\aulaDotNetCore.dll
+C:\Users\Diego\aulaDotNetCore\obj\Debug\netcoreapp2.0\aulaDotNetCore.pdb

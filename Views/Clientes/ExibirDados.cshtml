@@ -1,0 +1,12 @@
+@model aulaDotNetCore.Models.Cliente
+<h1>Exibir View</h1>
+
+
+@Html.LabelFor(model => model.Nome)
+@Html.DisplayFor(model => model.Nome)
+@Html.ActionLink("retornar","Index","Cliente")
+<input asp-for="Nome"/>
+<br/>
+
+<input asp-for="Email"/>
+<a href="Index">Retornar</a>

@@ -1,0 +1,42 @@
+<h1>Cadastro Cliente</h1>
+
+@{var lista = new List<SelectListItem>(){
+    new SelectListItem(){Value="1",Text="As"}
+};
+}
+<form asp-controller="Cliente" asp-action="Index" method="POST">
+    @Html.Label("ClienteId")
+    @Html.TextBox("ClienteID")
+    <br/>
+    @Html.Label("Nome")
+    @Html.TextBox("Nome")  
+    <br/>
+    @Html.Label("Email")
+    @Html.TextBox("Email")
+    <br/>
+    @Html.DropDownList("Teste",lista)
+    <button type="submit">Salvar</button>
+    <br/>
+    <br/>
+    <br/>
+</form>
+@using (Html.BeginForm("Index", "Clientes", FormMethod.Post)) {
+    @Html.Label("ClienteId")
+    @Html.TextBox("ClienteID")
+    <br/>
+    @Html.Label("Nome")
+    @Html.TextBox("Nome")  
+    <br/>
+    @Html.Label("Email")
+    @Html.TextBox("Email")
+    <br/>
+    @Html.DropDownList("Teste",lista)
+    <button type="submit">Salvar</button>
+ }
+
+@await Component.InvokeAsync("Lista",new {sequencia="Santos,Campinas, casa"})
+
+
+@if (ViewBag.Erro != null) {
+    <p>@ViewBag.Erro</p>
+}

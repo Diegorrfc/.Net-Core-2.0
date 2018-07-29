@@ -1,0 +1,11 @@
+
+@inject aulaDotNetCore.Services.ListaEstadoServices estados 
+@inject aulaDotNetCore.Services.ProdutosServices Produtos
+
+@{
+    foreach (var item in estados.GetEstados()){
+        <h1>@item.NomeEstado</h1>
+    }
+}
+
+Estado: @Html.DropDownList("Estado", estados.GetEstados().Select(n => new SelectListItem { Text = n.NomeEstado,Value=n.SiglaEstago }))
