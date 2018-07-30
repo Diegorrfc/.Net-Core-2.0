@@ -8,3 +8,4 @@ C:\Users\Diego\aulaDotNetCore\obj\Debug\netcoreapp2.0\aulaDotNetCore.AssemblyInf
 C:\Users\Diego\aulaDotNetCore\obj\Debug\netcoreapp2.0\aulaDotNetCore.AssemblyInfo.cs
 C:\Users\Diego\aulaDotNetCore\obj\Debug\netcoreapp2.0\aulaDotNetCore.dll
 C:\Users\Diego\aulaDotNetCore\obj\Debug\netcoreapp2.0\aulaDotNetCore.pdb
+C:\Users\Diego\aulaDotNetCore\obj\Debug\netcoreapp2.0\aulaDotNetCore.csprojResolveAssemblyReference.cache

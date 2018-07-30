@@ -1,0 +1,9 @@
+﻿@model aulaDotNetCore.Areas.Pais.Models.Pais
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@Html.DropDownList("Teste", new SelectList(ViewBag.ListaPaises, "Id", "Nome"))
+<h2>Index</h2>
+
