@@ -24,6 +24,7 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Aluno\Data\" />
     <Folder Include="Areas\Pais\Data\" />
     <Folder Include="Areas\Produtos\Data\" />
   </ItemGroup>
